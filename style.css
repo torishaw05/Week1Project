@@ -1,0 +1,151 @@
+
+/*-------------------------------------------------NAV------*/
+#nav_text {
+  color: #2B2F26;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+  #nav_text:hover {
+    color: #967343;
+}
+#nav_text:active {
+  color: #968772;
+
+
+}
+  nav {
+  height: 78px;
+  background-color: white;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+}
+nav img {
+  height: 49%;
+}
+.nav_class {
+margin: 0%;
+padding: 0;
+display: flex;
+}
+.nav_class a {
+  width: 100%;
+}
+#logo {
+  height: 25px;
+margin-left: 28px;
+}
+
+/*-------------------------------------------------HEADER------*/
+#header_ {
+  width: 100%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: white;
+
+}
+#header_ nav a {
+  padding: 24px 30px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #2B2F26;
+  }
+  h1 {
+    padding-top: 8% ;
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+  font-weight: normal;
+    padding: 0%
+  }
+h3 {
+  color: #F0E9C8;
+}
+/*-------------------------------------------------BODY------*/
+.bodyimage img{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+body {
+  background-color: #F2F1E8;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Merriweather', serif;
+}
+#Bodyimages{
+  margin: 0 12px 12px;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-between;
+flex-flow: row wrap;
+}
+/*-------------------------------------------------FLEX------*/
+.pgr {
+  flex: 1;
+  flex-basis: 20%;
+  overflow: hidden;
+  height: 350px;
+  margin: 0.5%;
+}
+.pgr h3 {
+  background: #2b2f26;
+  color: #F0E9C8;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 300;
+  float: left;
+  position: relative;
+  z-index: 5;
+  margin-top: -70px;
+}
+.pgr b{
+  flex: 1;
+  flex-basis: 19%;
+}
+.pgr b {
+  flex: 2;
+  flex-basis: 39%;
+}
+.pgr q {
+  flex: 3;
+  flex-basis: 59%;
+}
+.tble{
+  height: 250px;
+}
+.pgr img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#bodyimages {
+  padding: 0;
+  margin: 0 10px 10px;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/*-------------------------------------------------FOOTER------*/
+footer{
+  width: 100%;
+  padding: 40px 0;
+  background-color: : #2b2f26;
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+footer p {
+    margin: 0 32px;
+}

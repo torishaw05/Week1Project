@@ -1,0 +1,204 @@
+/**{
+  border: 1px solid red;
+}*/
+
+body{
+  max-width: 1500px;
+  margin: 0;
+  padding:0;
+  background-color: #F2F1E8;
+}
+
+.header{
+  display:flex;
+  align-items: center;
+  background-color: white;
+  justify-content: flex-start;
+  width: 100%;
+  /*position: fixed;*/
+}
+
+.nav_tags{
+  display:flex;
+  align-content: center;
+  margin-left: 375px;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.nav_tags a{
+  display: flex;
+  justify-content: space-between;
+  color: #2B2F26;
+  font-family: "Roboto";
+  font-size: 12pt;
+  padding: 20px;
+}
+
+.comm h1{
+  display: flex;
+  justify-content:center;
+  font-family:"Merriweather";
+  font-weight: 300;
+  font-size: 60pt;
+  margin-top: 20px;
+}
+
+.paragraphz{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;*/
+  flex-wrap:wrap;
+  padding: 0;
+  width: 80%;
+
+}
+#room2grow {
+  color: white;
+  width: 40%;
+  align-items: center;
+  font-size: 60px;
+  margin-left: 400px;
+  margin-top: 150px;
+}
+
+#bird{
+  background-image: url("images/birdhouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:200px;
+  float: left;
+  margin-left:50px;
+  padding: 0;
+}
+
+.blockquote{
+  margin: 20px 50px;
+  font-family: "Merriweather";
+  font-weight: 200;
+  font-style: italic;
+  line-height: 1.9;
+  /*width: 50%;*/
+  display: flex;
+  justify-content: flex-start;
+  height: 200px;
+  align-items: center;
+}
+
+#text1{
+  /*width: 100px;*/
+  height: 200px;
+  font-family: "Merriweather";
+  font-weight: 200;
+  flex-wrap: wrap;
+  line-height: 1.9;
+  margin-top: 0;
+  margin-left: 50px;
+
+}
+
+#text2{
+  width: 70%;
+  height: 200px;
+  font-family: "Merriweather";
+  font-weight: 200;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  line-height: 1.9;
+}
+
+#text3{
+  width: 90%;
+  height: 200px;
+  font-family: "Merriweather";
+  font-weight: 200;
+  /*flex-wrap: wrap;*/
+  margin-left: 50px;
+  line-height: 1.9;
+  flex-wrap: nowrap;
+
+}
+
+h1{
+  font-family:"Merriweather";
+  font-weight: 300;
+  font-size: 36pt;
+  margin: 20px 50px;
+}
+
+.pics {
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+#grow{
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  width: 100%;
+  height:400px;
+
+}
+.caption{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80px;
+  margin-bottom: 50px;
+}
+#pottery{
+  padding: 5px;
+  width: 20%;
+  height:150px;
+  float: right;
+  margin-top: 0px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+  align-self: flex-start;
+}
+
+#pottery_caption{
+
+  font-size: 10pt;
+  font-style: italic;
+  width: 30%;
+  height: 50px;
+  align-self: flex-end;
+  float:right;
+
+}
+
+
+table{
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin-left:50px;
+  padding: 20px;
+  font-family:"Merriweather";
+  font-weight: 200;
+  margin-bottom: 50px;
+}
+
+tr>th{
+  border: 2px solid black;
+  padding: 10px;
+}
+tr>td{
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 98%;
+  background-color: #2B2F26;
+  font-family: "Merriweather";
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  padding-left: 25px;
+}
